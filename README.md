@@ -6,7 +6,7 @@
 ## Create a NodeJS container running within Microsoft Nano server
 3. Run dockerBuild.cmd to create new docker image from nanoserver adding in node js
     * Assumes NodeJS has been installed on local computer.  If not, download and install it from [nodejs.org](https://nodejs.org/en/download/)
-4. optionally push this container to http://hub.docker.com using the following commands
+4. Optionally push this container to http://hub.docker.com using the following commands
     docker login
     docker push paulgilchrist/node:nano
 
