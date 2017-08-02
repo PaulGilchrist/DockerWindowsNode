@@ -1,5 +1,5 @@
 # Docker ReadMe
-## Docker Setup on Windows 10 Aniversary Edition PC
+## Docker Setup on Windows 10
 1.	Setup Docker following [Microsoft’s documentation](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10)
 2.	Add registry setting using PowerShell if testing on Windows 10  
     Set-ItemProperty -Path 'HKLM:SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization\Containers' -Name VSmbDisableOplocks -Type DWord -Value 1 -Force
