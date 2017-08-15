@@ -6,8 +6,8 @@ md %containerFolder%
 xcopy "c:\program files\nodejs\*.*" %containerFolder%\nodejs\*.* /s
 copy Dockerfile %containerFolder%\
 :: Build the new container
-docker build -t paulgilchrist/node:nano %containerFolder%
+docker build -t paulgilchrist/node-nano %containerFolder%
 :: Cleanup the temporary folder
 rd %containerFolder% /S /Q
 ::docker login
-::docker push paulgilchrist/node:nano
+::docker push paulgilchrist/node-nano
