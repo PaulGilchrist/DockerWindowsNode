@@ -8,7 +8,7 @@
     * Assumes NodeJS has been installed on local computer.  If not, download and install it from [nodejs.org](https://nodejs.org/en/download/)
 4. Optionally push this container to http://hub.docker.com using the following commands
     docker login
-    docker push paulgilchrist/node:nano
+    docker push paulgilchrist/node-nano
 
 If it is ever required to remove all stopped containers, it can be done with the following command:  
     FOR /f "tokens=*" %i IN ('docker ps -a -q') DO docker rm %i
